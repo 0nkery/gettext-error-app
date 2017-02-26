@@ -17,7 +17,7 @@ config :gettext_error_app, GettextErrorApp.Endpoint,
   pubsub: [name: GettextErrorApp.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
-config :gettext_error_app, Enwatch.Gettext, default_locale: "ru"
+config :gettext_error_app, GettextErrorApp.Gettext, default_locale: "ru"
 
 # Configures Elixir's Logger
 config :logger, :console,
